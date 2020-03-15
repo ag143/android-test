@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package androidx.test.espresso.intent;
+package androidx.test.espresso.intent.matcher;
 
 import static androidx.test.core.app.ApplicationProvider.getApplicationContext;
 import static androidx.test.espresso.intent.matcher.BundleMatchers.hasEntry;
@@ -48,6 +48,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import androidx.test.espresso.intent.ResolvedIntent;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.SmallTest;
 import java.util.HashSet;
